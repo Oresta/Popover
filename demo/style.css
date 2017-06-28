@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.popover-example {
+  background-color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.example-multiple {
+  min-height: 300px;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #eee;
+  border: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  min-width: 90px;
+  padding: 10px;
+  margin: 60px;
+  background-color: green;
+  color: #fff;
+  border-radius: 10px;
+}
